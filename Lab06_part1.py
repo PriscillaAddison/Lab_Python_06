@@ -18,10 +18,22 @@ torres		| 6/21/2012	| 1
 """
 
 ## create the player_stats data structure
-
-
-
+import datetime
+player_stats={'rooney':(datetime.date(2012,6,23),2),
+              'rooney':(datetime.date(2012,6,25),2),
+              'ronaldo':(datetime.date(2012,6,19),0),
+              'ronaldo':(datetime.date(2012,6,20),3),
+              'torres':(datetime.date(2012,6,21),0),
+              'torres':(datetime.date(2012,6,21),1)}
+print player_stats
+   
 ## implement highest_score
+def highest_score(player_stats):
+             for i in player_stats():
+                 n=0
+                 if n>2:
+                     print n
+    
 
 
 
@@ -30,3 +42,41 @@ torres		| 6/21/2012	| 1
 
 
 ## implement highest_scorer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
